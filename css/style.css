@@ -1,0 +1,29 @@
+
+body {
+  background-color: #593a1d;
+}
+
+h1 {
+  background-color: #0d0d0d;
+  text-align: center;
+  padding: 40px;
+  color: #ffffff;
+}
+
+h2 {
+  background-color:#372516;
+  text-align: center;
+  padding: 40px;
+  color: #ffffff;
+}
+
+p {
+  background-color: #372516;
+  text-align: center;
+  padding: 40px;
+  color: #eed3d3;
+}
+
+img {
+  text-align : center
+}
