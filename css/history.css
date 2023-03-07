@@ -1,6 +1,6 @@
 
 body {
-  background-color: #593a1d;
+  background-color: #5a4b2a;
 }
 
 button {
@@ -23,14 +23,14 @@ h2 {
 }
 
 p {
-  background-color: #372516;
+  background-color: #29250f;
   text-align: center;
   padding: 40px;
   color: #eed3d3;
 }
 
 img {
-  text-align : center
+  float: right;
 }
 
 ol {
@@ -51,6 +51,10 @@ td {
 
 span class {
   color :#ffcccc;
+}
+
+ul {
+  color: #ffcccc;
 }
 
 li {

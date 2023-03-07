@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="description" content="My second webpage, with MDL">
     <meta name="keywords" content="Immaculata, ics2o">
-    <meta name="author" content="Julien L.">\
+    <meta name="author" content="Julien L.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- For the favicon on this page -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href=".fav_index/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
-    <link rel="manifest" href="./fav_index/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Story Behind The Six Strings</title>
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/aboutus.css">
+    <title>About Us</title>
     <!-- To use Google's MDL -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -22,7 +22,7 @@
     </div>
   </head>
   <body>
- <!-- Always shows a header, even in smaller screens. -->
+    <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"></div>
       <header class="mdl-layout__header"></header>
         <div class="mdl-layout__header-row">
@@ -44,33 +44,26 @@
           </div>
         </main>
         </div>
-    <!--Script for the button-->
-    <script>function myButtonClicked() {
-  alert("Fun fact : The World's biggest guitar that still works is 13 metres tall!")
-}
-    </script>
     <!--Header-->
     <br>
     <br>
     <br>
-    <h1>Story Behind The Six Strings</h1>
+    <h1>About us</h1>
+    <img src="./images/MeWithMyGuitar.jpg">
     <br>
-    <!--First Image-->
-    <center>
-      <img src="./images/Guitar image.jpg" alt="Guitar Image-1" height="900" width="1900">
-    </center>
-    <!--Welcome! text-->
-    <h2>Welcome!</h2>
-    <p>Here at Story Behind The Six Strings, you can visit a variety of sites regarding the subject of guitars. If you
-    want to dive into the rich history of guitars, head to our history page! Or maybe you just want to learn about
-    different guitarists throughout the ages. If so, head to our guitarist's page! If you want to learn more our founder
-    and our work, head to the "about us" page!</p>
+    <h2>Meet the band</h2>
+    <p>For the longest time, our founder, Julien Lamoureux, has been devoted to showing the beauty of the musical instrument, the guitar. Starting his journey with the instrument in 2017, Julien wishes to show the world how six strings can change the course of a lifetime!</p>
+    <h2>Show us your skills</h2>
+    <p>Show us your skills with the guitar! Use the slider below to demonstrate your skills with the guitar. Slide to the left if you are a beginner, and to the right, if you are more advanced.</p>
+    <!-- Default Slider -->
     <br>
-    <!-- Colored raised button -->
+    <input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="0" tabindex="5">
+    <br>
+    <br>
     <center>
-      <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-    Click Me!
-      </button>
+      <img src="./gifs/ManPlayingGuitar.gif" height="450" width="300">
     </center>
   </body>
 </html>
+ 

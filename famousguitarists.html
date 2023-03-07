@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="description" content="My second webpage, with MDL">
     <meta name="keywords" content="Immaculata, ics2o">
-    <meta name="author" content="Julien L.">\
+    <meta name="author" content="Julien L.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- For the favicon on this page -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href=".fav_index/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
-    <link rel="manifest" href="./fav_index/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Story Behind The Six Strings</title>
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/famousguitarists.css">
+    <title>Famous Guitarists</title>
     <!-- To use Google's MDL -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -22,7 +22,7 @@
     </div>
   </head>
   <body>
- <!-- Always shows a header, even in smaller screens. -->
+     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"></div>
       <header class="mdl-layout__header"></header>
         <div class="mdl-layout__header-row">
@@ -44,33 +44,36 @@
           </div>
         </main>
         </div>
-    <!--Script for the button-->
-    <script>function myButtonClicked() {
-  alert("Fun fact : The World's biggest guitar that still works is 13 metres tall!")
-}
-    </script>
     <!--Header-->
     <br>
     <br>
     <br>
-    <h1>Story Behind The Six Strings</h1>
+    <h1>Famous Guitarists</h1>
     <br>
-    <!--First Image-->
+    <p>Here is an order list of the top 5 best guitarists of all time :</p>
+    <ol>
+      <li>Guthrie Govan</li>
+      <li>Pat Metheny</li>
+      <li>Tommy Emmanuel</li>
+      <li>Steve Vai</li>
+      <li>Derek Trucks</li>
+    </ol>
+    <!-- MDL Spinner Component with Single Color -->
+    <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+    <!--GiF of Pat Metheny-->
     <center>
-      <img src="./images/Guitar image.jpg" alt="Guitar Image-1" height="900" width="1900">
+      <p>Here is a gif of Pat Metheney.</p>
     </center>
-    <!--Welcome! text-->
-    <h2>Welcome!</h2>
-    <p>Here at Story Behind The Six Strings, you can visit a variety of sites regarding the subject of guitars. If you
-    want to dive into the rich history of guitars, head to our history page! Or maybe you just want to learn about
-    different guitarists throughout the ages. If so, head to our guitarist's page! If you want to learn more our founder
-    and our work, head to the "about us" page!</p>
-    <br>
-    <!-- Colored raised button -->
-    <center>
-      <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-    Click Me!
-      </button>
-    </center>
+    <img src="./gifs/PatMetheny.gif" height="350" width="450">
+    <!--Radio Button-->
+    <p>Have you heard of any of these guitarists?</p>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+      <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+      <span class="mdl-radio__label">Yes</span>
+    </label>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+      <span class="mdl-radio__label">No</span>
+    </label>
   </body>
 </html>
