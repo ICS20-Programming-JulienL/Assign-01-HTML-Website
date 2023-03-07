@@ -12,14 +12,14 @@ h1 {
   background-color: #4c1f1f;
   text-align: center;
   padding: 40px;
-  color: #ffffff;
+  color: #fff;
 }
 
 h2 {
   background-color:#372516;
   text-align: center;
   padding: 40px;
-  color: #ffffff;
+  color: #fff;
 }
 
 p {
@@ -47,10 +47,6 @@ th {
 td {
   color: #fcc;
   border: 1px solid black ;
-}
-
-span class {
-  color :#ffcccc;
 }
 
 li {
