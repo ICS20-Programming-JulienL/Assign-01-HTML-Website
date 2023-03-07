@@ -12,14 +12,14 @@ h1 {
   background-color: #0d0d0d;
   text-align: center;
   padding: 40px;
-  color: #ffffff;
+  color: #fff;
 }
 
 h2 {
   background-color:#372516;
   text-align: center;
   padding: 40px;
-  color: #ffffff;
+  color: #fff;
 }
 
 p {
@@ -34,7 +34,7 @@ img {
 }
 
 ol {
-  color: #ffcccc;
+  color: #fcc;
   padding: 40px;
   text-align: center;
 }
@@ -45,18 +45,18 @@ th {
 }
 
 td {
-  color: #ffcccc;
+  color: #fcc;
   border: 1px solid black ;
 }
 
 span class {
-  color :#ffcccc;
+  color: #ffcccc;
 }
 
 ul {
-  color: #ffcccc;
+  color: #fcc;
 }
 
 li {
-  color: #ffcccc;
+  color: #fcc;
 }

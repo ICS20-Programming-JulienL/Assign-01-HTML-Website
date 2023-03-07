@@ -34,7 +34,7 @@ img {
 }
 
 ol {
-  color: #ffcccc;
+  color: #fcc;
   padding: 40px;
   text-align: center;
 }
@@ -45,7 +45,7 @@ th {
 }
 
 td {
-  color: #ffcccc;
+  color: #fcc;
   border: 1px solid black ;
 }
 
@@ -54,5 +54,5 @@ span class {
 }
 
 li {
-  color: #ffcccc;
+  color: #fcc;
 }
