@@ -1,4 +1,3 @@
-
 body {
   background-color: #5a4b2a;
 }
@@ -41,12 +40,12 @@ ol {
 
 th {
   background-color: black;
-  color: white
+  color: white;
 }
 
 td {
   color: #fcc;
-  border: 1px solid black ;
+  border: 1px solid black;
 }
 
 ul {
